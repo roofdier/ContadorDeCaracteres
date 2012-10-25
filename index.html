@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="utf-8"/>
+	<title>Temporizador</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="jquery-1.7.2.min.js"></script>
+	<script src="temporizador.js"></script>
+
+	<!--[if IE lt 9]>
+		<style>
+			
+		</style>
+	<![endif]-->
+
+</head>
+<body>
+	<header>
+		<h1>Contar caracteres</h1>
+	</header>
+	<section id="f">	
+		<section id="tstxt">
+			<p id="testext">Lorem ipsum non odio asdfLorem ipsum non odio asdfLorem ipsum non odio asdfLorem ipsum non odio asdfLorem ipsum non odio asdfLorem ipsum non odio asdfLorem ipsum non odio asdf</p>
+		</section>
+		<section id="cnt">
+			<form id="txt" onsubmit="return false;">
+				<label for="txtuser" id="txtuser_label"></label>
+				<input type="text" placeholder="Cuantos caracteres hay?"  autocomplete="off" id="txtuser" value="" />
+				<div id="status"></div>
+				<button id="vere">Verificar</button>
+			</form>
+		</section>
+	</section>
+</body>
+</html>
